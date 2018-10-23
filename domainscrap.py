@@ -42,4 +42,4 @@ def followlinks(startingpage):
             externallinks=getrandomexternal(startingpage)
             print("external link :"+externallinks)
             followlinks(externallinks)
-followlinks("http://oreilly.com")                              
+followlinks("http://oreilly5.com")                              
