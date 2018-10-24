@@ -8,7 +8,7 @@ try:
 except Exception as e:
     print('connection error '+ str(e))
 try:
-   smtpobj.login('shahules786@gmail.com',input('password:'))
+   smtpobj.login('shulu@gmail.com',input('password:'))
    resp=input("enter recepient mail id")
    
 
